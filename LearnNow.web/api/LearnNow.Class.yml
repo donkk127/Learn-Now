@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class
+  commentId: N:LearnNow.Class
+  id: LearnNow.Class
+  children:
+  - LearnNow.Class.Class1
+  - LearnNow.Class.CourseRepository
+  - LearnNow.Class.ICourseRepository
+  - LearnNow.Class.ILocationRepository
+  - LearnNow.Class.IRepositoryGeneric`1
+  - LearnNow.Class.LearnNowDB
+  - LearnNow.Class.LocationRepository
+  - LearnNow.Class.RepositoryGeneric`1
+  - LearnNow.Class.TrainingEventRepository
+  langs:
+  - csharp
+  - vb
+  name: LearnNow.Class
+  nameWithType: LearnNow.Class
+  fullName: LearnNow.Class
+  type: Namespace
+  assemblies:
+  - LearnNow.Class
+references:
+- uid: LearnNow.Class.Class1
+  commentId: T:LearnNow.Class.Class1
+  href: LearnNow.Class.Class1.html
+  name: Class1
+  nameWithType: Class1
+  fullName: LearnNow.Class.Class1
+- uid: LearnNow.Class.CourseRepository
+  commentId: T:LearnNow.Class.CourseRepository
+  href: LearnNow.Class.CourseRepository.html
+  name: CourseRepository
+  nameWithType: CourseRepository
+  fullName: LearnNow.Class.CourseRepository
+- uid: LearnNow.Class.ICourseRepository
+  commentId: T:LearnNow.Class.ICourseRepository
+  parent: LearnNow.Class
+  href: LearnNow.Class.ICourseRepository.html
+  name: ICourseRepository
+  nameWithType: ICourseRepository
+  fullName: LearnNow.Class.ICourseRepository
+- uid: LearnNow.Class.ILocationRepository
+  commentId: T:LearnNow.Class.ILocationRepository
+  parent: LearnNow.Class
+  href: LearnNow.Class.ILocationRepository.html
+  name: ILocationRepository
+  nameWithType: ILocationRepository
+  fullName: LearnNow.Class.ILocationRepository
+- uid: LearnNow.Class.IRepositoryGeneric`1
+  commentId: T:LearnNow.Class.IRepositoryGeneric`1
+  href: LearnNow.Class.IRepositoryGeneric-1.html
+  name: IRepositoryGeneric<T>
+  nameWithType: IRepositoryGeneric<T>
+  fullName: LearnNow.Class.IRepositoryGeneric<T>
+  nameWithType.vb: IRepositoryGeneric(Of T)
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T)
+  name.vb: IRepositoryGeneric(Of T)
+  spec.csharp:
+  - uid: LearnNow.Class.IRepositoryGeneric`1
+    name: IRepositoryGeneric
+    href: LearnNow.Class.IRepositoryGeneric-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: LearnNow.Class.IRepositoryGeneric`1
+    name: IRepositoryGeneric
+    href: LearnNow.Class.IRepositoryGeneric-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LearnNow.Class.LearnNowDB
+  commentId: T:LearnNow.Class.LearnNowDB
+  parent: LearnNow.Class
+  href: LearnNow.Class.LearnNowDB.html
+  name: LearnNowDB
+  nameWithType: LearnNowDB
+  fullName: LearnNow.Class.LearnNowDB
+- uid: LearnNow.Class.LocationRepository
+  commentId: T:LearnNow.Class.LocationRepository
+  href: LearnNow.Class.LocationRepository.html
+  name: LocationRepository
+  nameWithType: LocationRepository
+  fullName: LearnNow.Class.LocationRepository
+- uid: LearnNow.Class.RepositoryGeneric`1
+  commentId: T:LearnNow.Class.RepositoryGeneric`1
+  href: LearnNow.Class.RepositoryGeneric-1.html
+  name: RepositoryGeneric<T>
+  nameWithType: RepositoryGeneric<T>
+  fullName: LearnNow.Class.RepositoryGeneric<T>
+  nameWithType.vb: RepositoryGeneric(Of T)
+  fullName.vb: LearnNow.Class.RepositoryGeneric(Of T)
+  name.vb: RepositoryGeneric(Of T)
+  spec.csharp:
+  - uid: LearnNow.Class.RepositoryGeneric`1
+    name: RepositoryGeneric
+    href: LearnNow.Class.RepositoryGeneric-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: LearnNow.Class.RepositoryGeneric`1
+    name: RepositoryGeneric
+    href: LearnNow.Class.RepositoryGeneric-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LearnNow.Class.TrainingEventRepository
+  commentId: T:LearnNow.Class.TrainingEventRepository
+  parent: LearnNow.Class
+  href: LearnNow.Class.TrainingEventRepository.html
+  name: TrainingEventRepository
+  nameWithType: TrainingEventRepository
+  fullName: LearnNow.Class.TrainingEventRepository
+- uid: LearnNow.Class
+  commentId: N:LearnNow.Class
+  href: LearnNow.html
+  name: LearnNow.Class
+  nameWithType: LearnNow.Class
+  fullName: LearnNow.Class
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html

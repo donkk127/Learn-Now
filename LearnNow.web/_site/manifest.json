@@ -1,0 +1,560 @@
+{
+  "source_base_path": "C:/Users/Lab A 13/source/repos/Learn Now 2/LearnNow.web",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Class1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Class1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.CourseRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.CourseRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.CourseRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.ICourseRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.ICourseRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.ICourseRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.ILocationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.ILocationRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.ILocationRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.IRepositoryGeneric-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.IRepositoryGeneric-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.IRepositoryGeneric<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.LearnNowDB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.LearnNowDB.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.LearnNowDB",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.LocationRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.LocationRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.LocationRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Migrations.FirstMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Migrations.FirstMigration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Migrations.FirstMigration",
+      "Summary": "<p sourcefile=\"api/LearnNow.Class.Migrations.FirstMigration.yml\" sourcestartlinenumber=\"1\">A base class inherited by each EF Core migration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Migrations.SeagregaTrainingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Migrations.SeagregaTrainingEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Migrations.SeagregaTrainingEvent",
+      "Summary": "<p sourcefile=\"api/LearnNow.Class.Migrations.SeagregaTrainingEvent.yml\" sourcestartlinenumber=\"1\">A base class inherited by each EF Core migration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Migrations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Migrations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.CourseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.CourseModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models.CourseModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.IEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.IEntity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models.IEntity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.LocationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.LocationModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models.LocationModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.TeacherModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.TeacherModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models.TeacherModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.TraineeModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.TraineeModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models.TraineeModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.TrainingEventModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.TrainingEventModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models.TrainingEventModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.RepositoryGeneric-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.RepositoryGeneric-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.RepositoryGeneric<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.TrainingEventRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.TrainingEventRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class.TrainingEventRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.Class.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.Class.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.Class",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.AdminController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.AdminController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.AdminController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.CourseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.CourseController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.CourseController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.HomeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.HomeController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.HomeController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.LocationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.LocationController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.LocationController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.TeacherController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.TeacherController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.TeacherController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.TraineeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.TraineeController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.TraineeController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.TrainingEventController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.TrainingEventController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.TrainingEventController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.UserManagementController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.UserManagementController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers.UserManagementController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Models.ErrorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Models.ErrorViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Models.ErrorViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.RoleInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.RoleInitializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web.RoleInitializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LearnNow.web.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LearnNow.web.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LearnNow.web",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wwwroot/lib/jquery-validation/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "wwwroot/lib/jquery-validation/LICENSE.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

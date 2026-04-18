@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.web
+  commentId: N:LearnNow.web
+  id: LearnNow.web
+  children:
+  - LearnNow.web.RoleInitializer
+  langs:
+  - csharp
+  - vb
+  name: LearnNow.web
+  nameWithType: LearnNow.web
+  fullName: LearnNow.web
+  type: Namespace
+  assemblies:
+  - LearnNow.web
+references:
+- uid: LearnNow.web.RoleInitializer
+  commentId: T:LearnNow.web.RoleInitializer
+  href: LearnNow.web.RoleInitializer.html
+  name: RoleInitializer
+  nameWithType: RoleInitializer
+  fullName: LearnNow.web.RoleInitializer

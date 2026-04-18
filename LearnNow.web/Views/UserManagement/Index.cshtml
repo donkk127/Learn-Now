@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+@{
+    ViewData["Title"] = "List Users";
+}
+
+<h1>List Users</h1>
+<a asp-action="CreateUser" class="btn btn-primary">Create User</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var user in Model)
+        {
+        <tr>
+            <td>@user.Email</td>
+            <td>@ViewBag.UserRoles[user.Email]</td>
+            <td>
+                <form asp-action="Delete"
+                   asp-route-id="@user.Id"
+                   method="post"
+                   style="display:inline"
+                   onsubmit="return confirm('Are you sure?');"
+                >
+               
+                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+               </form>
+            </td>
+        </tr>
+        }
+
+    </tbody>
+</table>
+

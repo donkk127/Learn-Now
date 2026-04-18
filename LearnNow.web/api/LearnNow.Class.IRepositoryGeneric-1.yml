@@ -1,0 +1,452 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.IRepositoryGeneric`1
+  commentId: T:LearnNow.Class.IRepositoryGeneric`1
+  id: IRepositoryGeneric`1
+  parent: LearnNow.Class
+  children:
+  - LearnNow.Class.IRepositoryGeneric`1.Create(`0)
+  - LearnNow.Class.IRepositoryGeneric`1.Delete(System.Int32)
+  - LearnNow.Class.IRepositoryGeneric`1.GetAll
+  - LearnNow.Class.IRepositoryGeneric`1.GetById(System.Int32)
+  - LearnNow.Class.IRepositoryGeneric`1.Update(`0)
+  langs:
+  - csharp
+  - vb
+  name: IRepositoryGeneric<T>
+  nameWithType: IRepositoryGeneric<T>
+  fullName: LearnNow.Class.IRepositoryGeneric<T>
+  type: Interface
+  source:
+    id: IRepositoryGeneric
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\IRepositoryGeneric.cs
+    startLine: 10
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: 'public interface IRepositoryGeneric<T> where T : IEntity'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IRepositoryGeneric(Of T As IEntity)
+  derivedClasses:
+  - LearnNow.Class.RepositoryGeneric`1
+  - LearnNow.Class.TrainingEventRepository
+  nameWithType.vb: IRepositoryGeneric(Of T)
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T)
+  name.vb: IRepositoryGeneric(Of T)
+- uid: LearnNow.Class.IRepositoryGeneric`1.Create(`0)
+  commentId: M:LearnNow.Class.IRepositoryGeneric`1.Create(`0)
+  id: Create(`0)
+  parent: LearnNow.Class.IRepositoryGeneric`1
+  langs:
+  - csharp
+  - vb
+  name: Create(T)
+  nameWithType: IRepositoryGeneric<T>.Create(T)
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.Create(T)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\IRepositoryGeneric.cs
+    startLine: 12
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<int> Create(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function Create(entity As T) As Task(Of Integer)
+  overload: LearnNow.Class.IRepositoryGeneric`1.Create*
+  nameWithType.vb: IRepositoryGeneric(Of T).Create(T)
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).Create(T)
+- uid: LearnNow.Class.IRepositoryGeneric`1.Delete(System.Int32)
+  commentId: M:LearnNow.Class.IRepositoryGeneric`1.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: LearnNow.Class.IRepositoryGeneric`1
+  langs:
+  - csharp
+  - vb
+  name: Delete(int)
+  nameWithType: IRepositoryGeneric<T>.Delete(int)
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.Delete(int)
+  type: Method
+  source:
+    id: Delete
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\IRepositoryGeneric.cs
+    startLine: 13
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task Delete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Delete(id As Integer) As Task
+  overload: LearnNow.Class.IRepositoryGeneric`1.Delete*
+  nameWithType.vb: IRepositoryGeneric(Of T).Delete(Integer)
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).Delete(Integer)
+  name.vb: Delete(Integer)
+- uid: LearnNow.Class.IRepositoryGeneric`1.GetAll
+  commentId: M:LearnNow.Class.IRepositoryGeneric`1.GetAll
+  id: GetAll
+  parent: LearnNow.Class.IRepositoryGeneric`1
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: IRepositoryGeneric<T>.GetAll()
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.GetAll()
+  type: Method
+  source:
+    id: GetAll
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\IRepositoryGeneric.cs
+    startLine: 14
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<ICollection<T>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+    content.vb: Function GetAll() As Task(Of ICollection(Of T))
+  overload: LearnNow.Class.IRepositoryGeneric`1.GetAll*
+  nameWithType.vb: IRepositoryGeneric(Of T).GetAll()
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).GetAll()
+- uid: LearnNow.Class.IRepositoryGeneric`1.GetById(System.Int32)
+  commentId: M:LearnNow.Class.IRepositoryGeneric`1.GetById(System.Int32)
+  id: GetById(System.Int32)
+  parent: LearnNow.Class.IRepositoryGeneric`1
+  langs:
+  - csharp
+  - vb
+  name: GetById(int)
+  nameWithType: IRepositoryGeneric<T>.GetById(int)
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.GetById(int)
+  type: Method
+  source:
+    id: GetById
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\IRepositoryGeneric.cs
+    startLine: 15
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<T> GetById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Function GetById(id As Integer) As Task(Of T)
+  overload: LearnNow.Class.IRepositoryGeneric`1.GetById*
+  nameWithType.vb: IRepositoryGeneric(Of T).GetById(Integer)
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).GetById(Integer)
+  name.vb: GetById(Integer)
+- uid: LearnNow.Class.IRepositoryGeneric`1.Update(`0)
+  commentId: M:LearnNow.Class.IRepositoryGeneric`1.Update(`0)
+  id: Update(`0)
+  parent: LearnNow.Class.IRepositoryGeneric`1
+  langs:
+  - csharp
+  - vb
+  name: Update(T)
+  nameWithType: IRepositoryGeneric<T>.Update(T)
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.Update(T)
+  type: Method
+  source:
+    id: Update
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\IRepositoryGeneric.cs
+    startLine: 16
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task Update(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function Update(entity As T) As Task
+  overload: LearnNow.Class.IRepositoryGeneric`1.Update*
+  nameWithType.vb: IRepositoryGeneric(Of T).Update(T)
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).Update(T)
+references:
+- uid: LearnNow.Class
+  commentId: N:LearnNow.Class
+  href: LearnNow.html
+  name: LearnNow.Class
+  nameWithType: LearnNow.Class
+  fullName: LearnNow.Class
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+- uid: LearnNow.Class.IRepositoryGeneric`1.Create*
+  commentId: Overload:LearnNow.Class.IRepositoryGeneric`1.Create
+  href: LearnNow.Class.IRepositoryGeneric-1.html#LearnNow_Class_IRepositoryGeneric_1_Create__0_
+  name: Create
+  nameWithType: IRepositoryGeneric<T>.Create
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.Create
+  nameWithType.vb: IRepositoryGeneric(Of T).Create
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).Create
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LearnNow.Class.IRepositoryGeneric`1.Delete*
+  commentId: Overload:LearnNow.Class.IRepositoryGeneric`1.Delete
+  href: LearnNow.Class.IRepositoryGeneric-1.html#LearnNow_Class_IRepositoryGeneric_1_Delete_System_Int32_
+  name: Delete
+  nameWithType: IRepositoryGeneric<T>.Delete
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.Delete
+  nameWithType.vb: IRepositoryGeneric(Of T).Delete
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).Delete
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LearnNow.Class.IRepositoryGeneric`1.GetAll*
+  commentId: Overload:LearnNow.Class.IRepositoryGeneric`1.GetAll
+  href: LearnNow.Class.IRepositoryGeneric-1.html#LearnNow_Class_IRepositoryGeneric_1_GetAll
+  name: GetAll
+  nameWithType: IRepositoryGeneric<T>.GetAll
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.GetAll
+  nameWithType.vb: IRepositoryGeneric(Of T).GetAll
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).GetAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.ICollection{`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ICollection<T>>
+  nameWithType: Task<ICollection<T>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.ICollection<T>>
+  nameWithType.vb: Task(Of ICollection(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.ICollection(Of T))
+  name.vb: Task(Of ICollection(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: LearnNow.Class.IRepositoryGeneric`1.GetById*
+  commentId: Overload:LearnNow.Class.IRepositoryGeneric`1.GetById
+  href: LearnNow.Class.IRepositoryGeneric-1.html#LearnNow_Class_IRepositoryGeneric_1_GetById_System_Int32_
+  name: GetById
+  nameWithType: IRepositoryGeneric<T>.GetById
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.GetById
+  nameWithType.vb: IRepositoryGeneric(Of T).GetById
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).GetById
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{`0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LearnNow.Class.IRepositoryGeneric`1.Update*
+  commentId: Overload:LearnNow.Class.IRepositoryGeneric`1.Update
+  href: LearnNow.Class.IRepositoryGeneric-1.html#LearnNow_Class_IRepositoryGeneric_1_Update__0_
+  name: Update
+  nameWithType: IRepositoryGeneric<T>.Update
+  fullName: LearnNow.Class.IRepositoryGeneric<T>.Update
+  nameWithType.vb: IRepositoryGeneric(Of T).Update
+  fullName.vb: LearnNow.Class.IRepositoryGeneric(Of T).Update

@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.Models.IEntity
+  commentId: T:LearnNow.Class.Models.IEntity
+  id: IEntity
+  parent: LearnNow.Class.Models
+  children:
+  - LearnNow.Class.Models.IEntity.Id
+  langs:
+  - csharp
+  - vb
+  name: IEntity
+  nameWithType: IEntity
+  fullName: LearnNow.Class.Models.IEntity
+  type: Interface
+  source:
+    id: IEntity
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\IEntity.cs
+    startLine: 8
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: public interface IEntity
+    content.vb: Public Interface IEntity
+  derivedClasses:
+  - LearnNow.Class.Models.CourseModel
+  - LearnNow.Class.Models.LocationModel
+  - LearnNow.Class.Models.TeacherModel
+  - LearnNow.Class.Models.TraineeModel
+  - LearnNow.Class.Models.TrainingEventModel
+- uid: LearnNow.Class.Models.IEntity.Id
+  commentId: P:LearnNow.Class.Models.IEntity.Id
+  id: Id
+  parent: LearnNow.Class.Models.IEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IEntity.Id
+  fullName: LearnNow.Class.Models.IEntity.Id
+  type: Property
+  source:
+    id: Id
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\IEntity.cs
+    startLine: 10
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Id As Integer
+  overload: LearnNow.Class.Models.IEntity.Id*
+references:
+- uid: LearnNow.Class.Models
+  commentId: N:LearnNow.Class.Models
+  href: LearnNow.html
+  name: LearnNow.Class.Models
+  nameWithType: LearnNow.Class.Models
+  fullName: LearnNow.Class.Models
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+- uid: LearnNow.Class.Models.IEntity.Id*
+  commentId: Overload:LearnNow.Class.Models.IEntity.Id
+  href: LearnNow.Class.Models.IEntity.html#LearnNow_Class_Models_IEntity_Id
+  name: Id
+  nameWithType: IEntity.Id
+  fullName: LearnNow.Class.Models.IEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

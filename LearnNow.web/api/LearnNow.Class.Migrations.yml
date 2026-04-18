@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.Migrations
+  commentId: N:LearnNow.Class.Migrations
+  id: LearnNow.Class.Migrations
+  children:
+  - LearnNow.Class.Migrations.FirstMigration
+  - LearnNow.Class.Migrations.SeagregaTrainingEvent
+  langs:
+  - csharp
+  - vb
+  name: LearnNow.Class.Migrations
+  nameWithType: LearnNow.Class.Migrations
+  fullName: LearnNow.Class.Migrations
+  type: Namespace
+  assemblies:
+  - LearnNow.Class
+references:
+- uid: LearnNow.Class.Migrations.FirstMigration
+  commentId: T:LearnNow.Class.Migrations.FirstMigration
+  href: LearnNow.Class.Migrations.FirstMigration.html
+  name: FirstMigration
+  nameWithType: FirstMigration
+  fullName: LearnNow.Class.Migrations.FirstMigration
+- uid: LearnNow.Class.Migrations.SeagregaTrainingEvent
+  commentId: T:LearnNow.Class.Migrations.SeagregaTrainingEvent
+  href: LearnNow.Class.Migrations.SeagregaTrainingEvent.html
+  name: SeagregaTrainingEvent
+  nameWithType: SeagregaTrainingEvent
+  fullName: LearnNow.Class.Migrations.SeagregaTrainingEvent

@@ -1,0 +1,108 @@
+### YamlMime:TableOfContent
+items:
+- uid: LearnNow.Class
+  name: LearnNow.Class
+  type: Namespace
+  items:
+  - uid: LearnNow.Class.Class1
+    name: Class1
+    type: Class
+  - uid: LearnNow.Class.CourseRepository
+    name: CourseRepository
+    type: Class
+  - uid: LearnNow.Class.ICourseRepository
+    name: ICourseRepository
+    type: Interface
+  - uid: LearnNow.Class.ILocationRepository
+    name: ILocationRepository
+    type: Interface
+  - uid: LearnNow.Class.IRepositoryGeneric`1
+    name: IRepositoryGeneric<T>
+    type: Interface
+  - uid: LearnNow.Class.LearnNowDB
+    name: LearnNowDB
+    type: Class
+  - uid: LearnNow.Class.LocationRepository
+    name: LocationRepository
+    type: Class
+  - uid: LearnNow.Class.RepositoryGeneric`1
+    name: RepositoryGeneric<T>
+    type: Class
+  - uid: LearnNow.Class.TrainingEventRepository
+    name: TrainingEventRepository
+    type: Class
+- uid: LearnNow.Class.Migrations
+  name: LearnNow.Class.Migrations
+  type: Namespace
+  items:
+  - uid: LearnNow.Class.Migrations.FirstMigration
+    name: FirstMigration
+    type: Class
+  - uid: LearnNow.Class.Migrations.SeagregaTrainingEvent
+    name: SeagregaTrainingEvent
+    type: Class
+- uid: LearnNow.Class.Models
+  name: LearnNow.Class.Models
+  type: Namespace
+  items:
+  - uid: LearnNow.Class.Models.CourseModel
+    name: CourseModel
+    type: Class
+  - uid: LearnNow.Class.Models.IEntity
+    name: IEntity
+    type: Interface
+  - uid: LearnNow.Class.Models.LocationModel
+    name: LocationModel
+    type: Class
+  - uid: LearnNow.Class.Models.TeacherModel
+    name: TeacherModel
+    type: Class
+  - uid: LearnNow.Class.Models.TraineeModel
+    name: TraineeModel
+    type: Class
+  - uid: LearnNow.Class.Models.TrainingEventModel
+    name: TrainingEventModel
+    type: Class
+- uid: LearnNow.web
+  name: LearnNow.web
+  type: Namespace
+  items:
+  - uid: LearnNow.web.RoleInitializer
+    name: RoleInitializer
+    type: Class
+- uid: LearnNow.web.Controllers
+  name: LearnNow.web.Controllers
+  type: Namespace
+  items:
+  - uid: LearnNow.web.Controllers.AdminController
+    name: AdminController
+    type: Class
+  - uid: LearnNow.web.Controllers.CourseController
+    name: CourseController
+    type: Class
+  - uid: LearnNow.web.Controllers.HomeController
+    name: HomeController
+    type: Class
+  - uid: LearnNow.web.Controllers.LocationController
+    name: LocationController
+    type: Class
+  - uid: LearnNow.web.Controllers.TeacherController
+    name: TeacherController
+    type: Class
+  - uid: LearnNow.web.Controllers.TraineeController
+    name: TraineeController
+    type: Class
+  - uid: LearnNow.web.Controllers.TrainingEventController
+    name: TrainingEventController
+    type: Class
+  - uid: LearnNow.web.Controllers.UserManagementController
+    name: UserManagementController
+    type: Class
+- uid: LearnNow.web.Models
+  name: LearnNow.web.Models
+  type: Namespace
+  items:
+  - uid: LearnNow.web.Models.ErrorViewModel
+    name: ErrorViewModel
+    type: Class
+memberLayout: SamePage

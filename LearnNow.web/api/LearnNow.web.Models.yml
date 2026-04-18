@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.web.Models
+  commentId: N:LearnNow.web.Models
+  id: LearnNow.web.Models
+  children:
+  - LearnNow.web.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: LearnNow.web.Models
+  nameWithType: LearnNow.web.Models
+  fullName: LearnNow.web.Models
+  type: Namespace
+  assemblies:
+  - LearnNow.web
+references:
+- uid: LearnNow.web.Models.ErrorViewModel
+  commentId: T:LearnNow.web.Models.ErrorViewModel
+  href: LearnNow.web.Models.ErrorViewModel.html
+  name: ErrorViewModel
+  nameWithType: ErrorViewModel
+  fullName: LearnNow.web.Models.ErrorViewModel

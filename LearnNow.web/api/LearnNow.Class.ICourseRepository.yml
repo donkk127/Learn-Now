@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.ICourseRepository
+  commentId: T:LearnNow.Class.ICourseRepository
+  id: ICourseRepository
+  parent: LearnNow.Class
+  children:
+  - LearnNow.Class.ICourseRepository.Create(LearnNow.Class.Models.CourseModel)
+  - LearnNow.Class.ICourseRepository.Delete(System.Int32)
+  - LearnNow.Class.ICourseRepository.GetAll
+  - LearnNow.Class.ICourseRepository.GetById(System.Int32)
+  - LearnNow.Class.ICourseRepository.Update(LearnNow.Class.Models.CourseModel)
+  langs:
+  - csharp
+  - vb
+  name: ICourseRepository
+  nameWithType: ICourseRepository
+  fullName: LearnNow.Class.ICourseRepository
+  type: Interface
+  source:
+    id: ICourseRepository
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ICourseRepository.cs
+    startLine: 9
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: public interface ICourseRepository
+    content.vb: Public Interface ICourseRepository
+  derivedClasses:
+  - LearnNow.Class.CourseRepository
+- uid: LearnNow.Class.ICourseRepository.Create(LearnNow.Class.Models.CourseModel)
+  commentId: M:LearnNow.Class.ICourseRepository.Create(LearnNow.Class.Models.CourseModel)
+  id: Create(LearnNow.Class.Models.CourseModel)
+  parent: LearnNow.Class.ICourseRepository
+  langs:
+  - csharp
+  - vb
+  name: Create(CourseModel)
+  nameWithType: ICourseRepository.Create(CourseModel)
+  fullName: LearnNow.Class.ICourseRepository.Create(LearnNow.Class.Models.CourseModel)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ICourseRepository.cs
+    startLine: 11
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<int> Create(CourseModel course)
+    parameters:
+    - id: course
+      type: LearnNow.Class.Models.CourseModel
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function Create(course As CourseModel) As Task(Of Integer)
+  overload: LearnNow.Class.ICourseRepository.Create*
+- uid: LearnNow.Class.ICourseRepository.Delete(System.Int32)
+  commentId: M:LearnNow.Class.ICourseRepository.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: LearnNow.Class.ICourseRepository
+  langs:
+  - csharp
+  - vb
+  name: Delete(int)
+  nameWithType: ICourseRepository.Delete(int)
+  fullName: LearnNow.Class.ICourseRepository.Delete(int)
+  type: Method
+  source:
+    id: Delete
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ICourseRepository.cs
+    startLine: 13
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: void Delete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Sub Delete(id As Integer)
+  overload: LearnNow.Class.ICourseRepository.Delete*
+  nameWithType.vb: ICourseRepository.Delete(Integer)
+  fullName.vb: LearnNow.Class.ICourseRepository.Delete(Integer)
+  name.vb: Delete(Integer)
+- uid: LearnNow.Class.ICourseRepository.GetAll
+  commentId: M:LearnNow.Class.ICourseRepository.GetAll
+  id: GetAll
+  parent: LearnNow.Class.ICourseRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: ICourseRepository.GetAll()
+  fullName: LearnNow.Class.ICourseRepository.GetAll()
+  type: Method
+  source:
+    id: GetAll
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ICourseRepository.cs
+    startLine: 15
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<List<CourseModel>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{LearnNow.Class.Models.CourseModel}}
+    content.vb: Function GetAll() As Task(Of List(Of CourseModel))
+  overload: LearnNow.Class.ICourseRepository.GetAll*
+- uid: LearnNow.Class.ICourseRepository.GetById(System.Int32)
+  commentId: M:LearnNow.Class.ICourseRepository.GetById(System.Int32)
+  id: GetById(System.Int32)
+  parent: LearnNow.Class.ICourseRepository
+  langs:
+  - csharp
+  - vb
+  name: GetById(int)
+  nameWithType: ICourseRepository.GetById(int)
+  fullName: LearnNow.Class.ICourseRepository.GetById(int)
+  type: Method
+  source:
+    id: GetById
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ICourseRepository.cs
+    startLine: 17
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<CourseModel> GetById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{LearnNow.Class.Models.CourseModel}
+    content.vb: Function GetById(id As Integer) As Task(Of CourseModel)
+  overload: LearnNow.Class.ICourseRepository.GetById*
+  nameWithType.vb: ICourseRepository.GetById(Integer)
+  fullName.vb: LearnNow.Class.ICourseRepository.GetById(Integer)
+  name.vb: GetById(Integer)
+- uid: LearnNow.Class.ICourseRepository.Update(LearnNow.Class.Models.CourseModel)
+  commentId: M:LearnNow.Class.ICourseRepository.Update(LearnNow.Class.Models.CourseModel)
+  id: Update(LearnNow.Class.Models.CourseModel)
+  parent: LearnNow.Class.ICourseRepository
+  langs:
+  - csharp
+  - vb
+  name: Update(CourseModel)
+  nameWithType: ICourseRepository.Update(CourseModel)
+  fullName: LearnNow.Class.ICourseRepository.Update(LearnNow.Class.Models.CourseModel)
+  type: Method
+  source:
+    id: Update
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ICourseRepository.cs
+    startLine: 19
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: void Update(CourseModel course)
+    parameters:
+    - id: course
+      type: LearnNow.Class.Models.CourseModel
+    content.vb: Sub Update(course As CourseModel)
+  overload: LearnNow.Class.ICourseRepository.Update*
+references:
+- uid: LearnNow.Class
+  commentId: N:LearnNow.Class
+  href: LearnNow.html
+  name: LearnNow.Class
+  nameWithType: LearnNow.Class
+  fullName: LearnNow.Class
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+- uid: LearnNow.Class.ICourseRepository.Create*
+  commentId: Overload:LearnNow.Class.ICourseRepository.Create
+  href: LearnNow.Class.ICourseRepository.html#LearnNow_Class_ICourseRepository_Create_LearnNow_Class_Models_CourseModel_
+  name: Create
+  nameWithType: ICourseRepository.Create
+  fullName: LearnNow.Class.ICourseRepository.Create
+- uid: LearnNow.Class.Models.CourseModel
+  commentId: T:LearnNow.Class.Models.CourseModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.CourseModel.html
+  name: CourseModel
+  nameWithType: CourseModel
+  fullName: LearnNow.Class.Models.CourseModel
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: LearnNow.Class.Models
+  commentId: N:LearnNow.Class.Models
+  href: LearnNow.html
+  name: LearnNow.Class.Models
+  nameWithType: LearnNow.Class.Models
+  fullName: LearnNow.Class.Models
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LearnNow.Class.ICourseRepository.Delete*
+  commentId: Overload:LearnNow.Class.ICourseRepository.Delete
+  href: LearnNow.Class.ICourseRepository.html#LearnNow_Class_ICourseRepository_Delete_System_Int32_
+  name: Delete
+  nameWithType: ICourseRepository.Delete
+  fullName: LearnNow.Class.ICourseRepository.Delete
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LearnNow.Class.ICourseRepository.GetAll*
+  commentId: Overload:LearnNow.Class.ICourseRepository.GetAll
+  href: LearnNow.Class.ICourseRepository.html#LearnNow_Class_ICourseRepository_GetAll
+  name: GetAll
+  nameWithType: ICourseRepository.GetAll
+  fullName: LearnNow.Class.ICourseRepository.GetAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{LearnNow.Class.Models.CourseModel}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{LearnNow.Class.Models.CourseModel}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<CourseModel>>
+  nameWithType: Task<List<CourseModel>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<LearnNow.Class.Models.CourseModel>>
+  nameWithType.vb: Task(Of List(Of CourseModel))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of LearnNow.Class.Models.CourseModel))
+  name.vb: Task(Of List(Of CourseModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: LearnNow.Class.Models.CourseModel
+    name: CourseModel
+    href: LearnNow.Class.Models.CourseModel.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LearnNow.Class.Models.CourseModel
+    name: CourseModel
+    href: LearnNow.Class.Models.CourseModel.html
+  - name: )
+  - name: )
+- uid: LearnNow.Class.ICourseRepository.GetById*
+  commentId: Overload:LearnNow.Class.ICourseRepository.GetById
+  href: LearnNow.Class.ICourseRepository.html#LearnNow_Class_ICourseRepository_GetById_System_Int32_
+  name: GetById
+  nameWithType: ICourseRepository.GetById
+  fullName: LearnNow.Class.ICourseRepository.GetById
+- uid: System.Threading.Tasks.Task{LearnNow.Class.Models.CourseModel}
+  commentId: T:System.Threading.Tasks.Task{LearnNow.Class.Models.CourseModel}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CourseModel>
+  nameWithType: Task<CourseModel>
+  fullName: System.Threading.Tasks.Task<LearnNow.Class.Models.CourseModel>
+  nameWithType.vb: Task(Of CourseModel)
+  fullName.vb: System.Threading.Tasks.Task(Of LearnNow.Class.Models.CourseModel)
+  name.vb: Task(Of CourseModel)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LearnNow.Class.Models.CourseModel
+    name: CourseModel
+    href: LearnNow.Class.Models.CourseModel.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LearnNow.Class.Models.CourseModel
+    name: CourseModel
+    href: LearnNow.Class.Models.CourseModel.html
+  - name: )
+- uid: LearnNow.Class.ICourseRepository.Update*
+  commentId: Overload:LearnNow.Class.ICourseRepository.Update
+  href: LearnNow.Class.ICourseRepository.html#LearnNow_Class_ICourseRepository_Update_LearnNow_Class_Models_CourseModel_
+  name: Update
+  nameWithType: ICourseRepository.Update
+  fullName: LearnNow.Class.ICourseRepository.Update

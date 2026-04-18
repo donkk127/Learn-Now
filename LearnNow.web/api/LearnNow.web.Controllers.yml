@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.web.Controllers
+  commentId: N:LearnNow.web.Controllers
+  id: LearnNow.web.Controllers
+  children:
+  - LearnNow.web.Controllers.AdminController
+  - LearnNow.web.Controllers.CourseController
+  - LearnNow.web.Controllers.HomeController
+  - LearnNow.web.Controllers.LocationController
+  - LearnNow.web.Controllers.TeacherController
+  - LearnNow.web.Controllers.TraineeController
+  - LearnNow.web.Controllers.TrainingEventController
+  - LearnNow.web.Controllers.UserManagementController
+  langs:
+  - csharp
+  - vb
+  name: LearnNow.web.Controllers
+  nameWithType: LearnNow.web.Controllers
+  fullName: LearnNow.web.Controllers
+  type: Namespace
+  assemblies:
+  - LearnNow.web
+references:
+- uid: LearnNow.web.Controllers.AdminController
+  commentId: T:LearnNow.web.Controllers.AdminController
+  href: LearnNow.web.Controllers.AdminController.html
+  name: AdminController
+  nameWithType: AdminController
+  fullName: LearnNow.web.Controllers.AdminController
+- uid: LearnNow.web.Controllers.CourseController
+  commentId: T:LearnNow.web.Controllers.CourseController
+  href: LearnNow.web.Controllers.CourseController.html
+  name: CourseController
+  nameWithType: CourseController
+  fullName: LearnNow.web.Controllers.CourseController
+- uid: LearnNow.web.Controllers.HomeController
+  commentId: T:LearnNow.web.Controllers.HomeController
+  href: LearnNow.web.Controllers.HomeController.html
+  name: HomeController
+  nameWithType: HomeController
+  fullName: LearnNow.web.Controllers.HomeController
+- uid: LearnNow.web.Controllers.LocationController
+  commentId: T:LearnNow.web.Controllers.LocationController
+  href: LearnNow.web.Controllers.LocationController.html
+  name: LocationController
+  nameWithType: LocationController
+  fullName: LearnNow.web.Controllers.LocationController
+- uid: LearnNow.web.Controllers.TeacherController
+  commentId: T:LearnNow.web.Controllers.TeacherController
+  href: LearnNow.web.Controllers.TeacherController.html
+  name: TeacherController
+  nameWithType: TeacherController
+  fullName: LearnNow.web.Controllers.TeacherController
+- uid: LearnNow.web.Controllers.TraineeController
+  commentId: T:LearnNow.web.Controllers.TraineeController
+  href: LearnNow.web.Controllers.TraineeController.html
+  name: TraineeController
+  nameWithType: TraineeController
+  fullName: LearnNow.web.Controllers.TraineeController
+- uid: LearnNow.web.Controllers.TrainingEventController
+  commentId: T:LearnNow.web.Controllers.TrainingEventController
+  href: LearnNow.web.Controllers.TrainingEventController.html
+  name: TrainingEventController
+  nameWithType: TrainingEventController
+  fullName: LearnNow.web.Controllers.TrainingEventController
+- uid: LearnNow.web.Controllers.UserManagementController
+  commentId: T:LearnNow.web.Controllers.UserManagementController
+  href: LearnNow.web.Controllers.UserManagementController.html
+  name: UserManagementController
+  nameWithType: UserManagementController
+  fullName: LearnNow.web.Controllers.UserManagementController

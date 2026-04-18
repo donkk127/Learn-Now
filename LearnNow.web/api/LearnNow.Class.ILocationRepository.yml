@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.ILocationRepository
+  commentId: T:LearnNow.Class.ILocationRepository
+  id: ILocationRepository
+  parent: LearnNow.Class
+  children:
+  - LearnNow.Class.ILocationRepository.Create(LearnNow.Class.Models.LocationModel)
+  - LearnNow.Class.ILocationRepository.Delete(System.Int32)
+  - LearnNow.Class.ILocationRepository.GetAll
+  - LearnNow.Class.ILocationRepository.GetById(System.Int32)
+  - LearnNow.Class.ILocationRepository.Update(LearnNow.Class.Models.LocationModel)
+  langs:
+  - csharp
+  - vb
+  name: ILocationRepository
+  nameWithType: ILocationRepository
+  fullName: LearnNow.Class.ILocationRepository
+  type: Interface
+  source:
+    id: ILocationRepository
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ILocationRepository.cs
+    startLine: 9
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: public interface ILocationRepository
+    content.vb: Public Interface ILocationRepository
+  derivedClasses:
+  - LearnNow.Class.LocationRepository
+- uid: LearnNow.Class.ILocationRepository.Create(LearnNow.Class.Models.LocationModel)
+  commentId: M:LearnNow.Class.ILocationRepository.Create(LearnNow.Class.Models.LocationModel)
+  id: Create(LearnNow.Class.Models.LocationModel)
+  parent: LearnNow.Class.ILocationRepository
+  langs:
+  - csharp
+  - vb
+  name: Create(LocationModel)
+  nameWithType: ILocationRepository.Create(LocationModel)
+  fullName: LearnNow.Class.ILocationRepository.Create(LearnNow.Class.Models.LocationModel)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ILocationRepository.cs
+    startLine: 11
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<int> Create(LocationModel location)
+    parameters:
+    - id: location
+      type: LearnNow.Class.Models.LocationModel
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Function Create(location As LocationModel) As Task(Of Integer)
+  overload: LearnNow.Class.ILocationRepository.Create*
+- uid: LearnNow.Class.ILocationRepository.Delete(System.Int32)
+  commentId: M:LearnNow.Class.ILocationRepository.Delete(System.Int32)
+  id: Delete(System.Int32)
+  parent: LearnNow.Class.ILocationRepository
+  langs:
+  - csharp
+  - vb
+  name: Delete(int)
+  nameWithType: ILocationRepository.Delete(int)
+  fullName: LearnNow.Class.ILocationRepository.Delete(int)
+  type: Method
+  source:
+    id: Delete
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ILocationRepository.cs
+    startLine: 13
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: void Delete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Sub Delete(id As Integer)
+  overload: LearnNow.Class.ILocationRepository.Delete*
+  nameWithType.vb: ILocationRepository.Delete(Integer)
+  fullName.vb: LearnNow.Class.ILocationRepository.Delete(Integer)
+  name.vb: Delete(Integer)
+- uid: LearnNow.Class.ILocationRepository.GetAll
+  commentId: M:LearnNow.Class.ILocationRepository.GetAll
+  id: GetAll
+  parent: LearnNow.Class.ILocationRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: ILocationRepository.GetAll()
+  fullName: LearnNow.Class.ILocationRepository.GetAll()
+  type: Method
+  source:
+    id: GetAll
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ILocationRepository.cs
+    startLine: 15
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<List<LocationModel>> GetAll()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{LearnNow.Class.Models.LocationModel}}
+    content.vb: Function GetAll() As Task(Of List(Of LocationModel))
+  overload: LearnNow.Class.ILocationRepository.GetAll*
+- uid: LearnNow.Class.ILocationRepository.GetById(System.Int32)
+  commentId: M:LearnNow.Class.ILocationRepository.GetById(System.Int32)
+  id: GetById(System.Int32)
+  parent: LearnNow.Class.ILocationRepository
+  langs:
+  - csharp
+  - vb
+  name: GetById(int)
+  nameWithType: ILocationRepository.GetById(int)
+  fullName: LearnNow.Class.ILocationRepository.GetById(int)
+  type: Method
+  source:
+    id: GetById
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ILocationRepository.cs
+    startLine: 17
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: Task<LocationModel> GetById(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{LearnNow.Class.Models.LocationModel}
+    content.vb: Function GetById(id As Integer) As Task(Of LocationModel)
+  overload: LearnNow.Class.ILocationRepository.GetById*
+  nameWithType.vb: ILocationRepository.GetById(Integer)
+  fullName.vb: LearnNow.Class.ILocationRepository.GetById(Integer)
+  name.vb: GetById(Integer)
+- uid: LearnNow.Class.ILocationRepository.Update(LearnNow.Class.Models.LocationModel)
+  commentId: M:LearnNow.Class.ILocationRepository.Update(LearnNow.Class.Models.LocationModel)
+  id: Update(LearnNow.Class.Models.LocationModel)
+  parent: LearnNow.Class.ILocationRepository
+  langs:
+  - csharp
+  - vb
+  name: Update(LocationModel)
+  nameWithType: ILocationRepository.Update(LocationModel)
+  fullName: LearnNow.Class.ILocationRepository.Update(LearnNow.Class.Models.LocationModel)
+  type: Method
+  source:
+    id: Update
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\ILocationRepository.cs
+    startLine: 19
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class
+  syntax:
+    content: void Update(LocationModel location)
+    parameters:
+    - id: location
+      type: LearnNow.Class.Models.LocationModel
+    content.vb: Sub Update(location As LocationModel)
+  overload: LearnNow.Class.ILocationRepository.Update*
+references:
+- uid: LearnNow.Class
+  commentId: N:LearnNow.Class
+  href: LearnNow.html
+  name: LearnNow.Class
+  nameWithType: LearnNow.Class
+  fullName: LearnNow.Class
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+- uid: LearnNow.Class.ILocationRepository.Create*
+  commentId: Overload:LearnNow.Class.ILocationRepository.Create
+  href: LearnNow.Class.ILocationRepository.html#LearnNow_Class_ILocationRepository_Create_LearnNow_Class_Models_LocationModel_
+  name: Create
+  nameWithType: ILocationRepository.Create
+  fullName: LearnNow.Class.ILocationRepository.Create
+- uid: LearnNow.Class.Models.LocationModel
+  commentId: T:LearnNow.Class.Models.LocationModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.LocationModel.html
+  name: LocationModel
+  nameWithType: LocationModel
+  fullName: LearnNow.Class.Models.LocationModel
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: LearnNow.Class.Models
+  commentId: N:LearnNow.Class.Models
+  href: LearnNow.html
+  name: LearnNow.Class.Models
+  nameWithType: LearnNow.Class.Models
+  fullName: LearnNow.Class.Models
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LearnNow.Class.ILocationRepository.Delete*
+  commentId: Overload:LearnNow.Class.ILocationRepository.Delete
+  href: LearnNow.Class.ILocationRepository.html#LearnNow_Class_ILocationRepository_Delete_System_Int32_
+  name: Delete
+  nameWithType: ILocationRepository.Delete
+  fullName: LearnNow.Class.ILocationRepository.Delete
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LearnNow.Class.ILocationRepository.GetAll*
+  commentId: Overload:LearnNow.Class.ILocationRepository.GetAll
+  href: LearnNow.Class.ILocationRepository.html#LearnNow_Class_ILocationRepository_GetAll
+  name: GetAll
+  nameWithType: ILocationRepository.GetAll
+  fullName: LearnNow.Class.ILocationRepository.GetAll
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{LearnNow.Class.Models.LocationModel}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{LearnNow.Class.Models.LocationModel}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<LocationModel>>
+  nameWithType: Task<List<LocationModel>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<LearnNow.Class.Models.LocationModel>>
+  nameWithType.vb: Task(Of List(Of LocationModel))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of LearnNow.Class.Models.LocationModel))
+  name.vb: Task(Of List(Of LocationModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: LearnNow.Class.Models.LocationModel
+    name: LocationModel
+    href: LearnNow.Class.Models.LocationModel.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LearnNow.Class.Models.LocationModel
+    name: LocationModel
+    href: LearnNow.Class.Models.LocationModel.html
+  - name: )
+  - name: )
+- uid: LearnNow.Class.ILocationRepository.GetById*
+  commentId: Overload:LearnNow.Class.ILocationRepository.GetById
+  href: LearnNow.Class.ILocationRepository.html#LearnNow_Class_ILocationRepository_GetById_System_Int32_
+  name: GetById
+  nameWithType: ILocationRepository.GetById
+  fullName: LearnNow.Class.ILocationRepository.GetById
+- uid: System.Threading.Tasks.Task{LearnNow.Class.Models.LocationModel}
+  commentId: T:System.Threading.Tasks.Task{LearnNow.Class.Models.LocationModel}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<LocationModel>
+  nameWithType: Task<LocationModel>
+  fullName: System.Threading.Tasks.Task<LearnNow.Class.Models.LocationModel>
+  nameWithType.vb: Task(Of LocationModel)
+  fullName.vb: System.Threading.Tasks.Task(Of LearnNow.Class.Models.LocationModel)
+  name.vb: Task(Of LocationModel)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LearnNow.Class.Models.LocationModel
+    name: LocationModel
+    href: LearnNow.Class.Models.LocationModel.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LearnNow.Class.Models.LocationModel
+    name: LocationModel
+    href: LearnNow.Class.Models.LocationModel.html
+  - name: )
+- uid: LearnNow.Class.ILocationRepository.Update*
+  commentId: Overload:LearnNow.Class.ILocationRepository.Update
+  href: LearnNow.Class.ILocationRepository.html#LearnNow_Class_ILocationRepository_Update_LearnNow_Class_Models_LocationModel_
+  name: Update
+  nameWithType: ILocationRepository.Update
+  fullName: LearnNow.Class.ILocationRepository.Update

@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.Models
+  commentId: N:LearnNow.Class.Models
+  id: LearnNow.Class.Models
+  children:
+  - LearnNow.Class.Models.CourseModel
+  - LearnNow.Class.Models.IEntity
+  - LearnNow.Class.Models.LocationModel
+  - LearnNow.Class.Models.TeacherModel
+  - LearnNow.Class.Models.TraineeModel
+  - LearnNow.Class.Models.TrainingEventModel
+  langs:
+  - csharp
+  - vb
+  name: LearnNow.Class.Models
+  nameWithType: LearnNow.Class.Models
+  fullName: LearnNow.Class.Models
+  type: Namespace
+  assemblies:
+  - LearnNow.Class
+references:
+- uid: LearnNow.Class.Models.CourseModel
+  commentId: T:LearnNow.Class.Models.CourseModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.CourseModel.html
+  name: CourseModel
+  nameWithType: CourseModel
+  fullName: LearnNow.Class.Models.CourseModel
+- uid: LearnNow.Class.Models.IEntity
+  commentId: T:LearnNow.Class.Models.IEntity
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.IEntity.html
+  name: IEntity
+  nameWithType: IEntity
+  fullName: LearnNow.Class.Models.IEntity
+- uid: LearnNow.Class.Models.LocationModel
+  commentId: T:LearnNow.Class.Models.LocationModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.LocationModel.html
+  name: LocationModel
+  nameWithType: LocationModel
+  fullName: LearnNow.Class.Models.LocationModel
+- uid: LearnNow.Class.Models.TeacherModel
+  commentId: T:LearnNow.Class.Models.TeacherModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.TeacherModel.html
+  name: TeacherModel
+  nameWithType: TeacherModel
+  fullName: LearnNow.Class.Models.TeacherModel
+- uid: LearnNow.Class.Models.TraineeModel
+  commentId: T:LearnNow.Class.Models.TraineeModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.TraineeModel.html
+  name: TraineeModel
+  nameWithType: TraineeModel
+  fullName: LearnNow.Class.Models.TraineeModel
+- uid: LearnNow.Class.Models.TrainingEventModel
+  commentId: T:LearnNow.Class.Models.TrainingEventModel
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.TrainingEventModel.html
+  name: TrainingEventModel
+  nameWithType: TrainingEventModel
+  fullName: LearnNow.Class.Models.TrainingEventModel
+- uid: LearnNow.Class.Models
+  commentId: N:LearnNow.Class.Models
+  href: LearnNow.html
+  name: LearnNow.Class.Models
+  nameWithType: LearnNow.Class.Models
+  fullName: LearnNow.Class.Models
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html

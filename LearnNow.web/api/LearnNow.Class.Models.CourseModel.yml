@@ -1,0 +1,514 @@
+### YamlMime:ManagedReference
+items:
+- uid: LearnNow.Class.Models.CourseModel
+  commentId: T:LearnNow.Class.Models.CourseModel
+  id: CourseModel
+  parent: LearnNow.Class.Models
+  children:
+  - LearnNow.Class.Models.CourseModel.Description
+  - LearnNow.Class.Models.CourseModel.Duration
+  - LearnNow.Class.Models.CourseModel.Id
+  - LearnNow.Class.Models.CourseModel.Price
+  - LearnNow.Class.Models.CourseModel.Title
+  langs:
+  - csharp
+  - vb
+  name: CourseModel
+  nameWithType: CourseModel
+  fullName: LearnNow.Class.Models.CourseModel
+  type: Class
+  source:
+    id: CourseModel
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\CourseModel.cs
+    startLine: 8
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: 'public class CourseModel : IEntity'
+    content.vb: Public Class CourseModel Implements IEntity
+  inheritance:
+  - System.Object
+  implements:
+  - LearnNow.Class.Models.IEntity
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LearnNow.Class.Models.CourseModel.Id
+  commentId: P:LearnNow.Class.Models.CourseModel.Id
+  id: Id
+  parent: LearnNow.Class.Models.CourseModel
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CourseModel.Id
+  fullName: LearnNow.Class.Models.CourseModel.Id
+  type: Property
+  source:
+    id: Id
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\CourseModel.cs
+    startLine: 10
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  example: []
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: LearnNow.Class.Models.CourseModel.Id*
+  implements:
+  - LearnNow.Class.Models.IEntity.Id
+- uid: LearnNow.Class.Models.CourseModel.Title
+  commentId: P:LearnNow.Class.Models.CourseModel.Title
+  id: Title
+  parent: LearnNow.Class.Models.CourseModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CourseModel.Title
+  fullName: LearnNow.Class.Models.CourseModel.Title
+  type: Property
+  source:
+    id: Title
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\CourseModel.cs
+    startLine: 11
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: LearnNow.Class.Models.CourseModel.Title*
+- uid: LearnNow.Class.Models.CourseModel.Description
+  commentId: P:LearnNow.Class.Models.CourseModel.Description
+  id: Description
+  parent: LearnNow.Class.Models.CourseModel
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CourseModel.Description
+  fullName: LearnNow.Class.Models.CourseModel.Description
+  type: Property
+  source:
+    id: Description
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\CourseModel.cs
+    startLine: 12
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: LearnNow.Class.Models.CourseModel.Description*
+- uid: LearnNow.Class.Models.CourseModel.Price
+  commentId: P:LearnNow.Class.Models.CourseModel.Price
+  id: Price
+  parent: LearnNow.Class.Models.CourseModel
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: CourseModel.Price
+  fullName: LearnNow.Class.Models.CourseModel.Price
+  type: Property
+  source:
+    id: Price
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\CourseModel.cs
+    startLine: 13
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: public decimal Price { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Price As Decimal
+  overload: LearnNow.Class.Models.CourseModel.Price*
+- uid: LearnNow.Class.Models.CourseModel.Duration
+  commentId: P:LearnNow.Class.Models.CourseModel.Duration
+  id: Duration
+  parent: LearnNow.Class.Models.CourseModel
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: CourseModel.Duration
+  fullName: LearnNow.Class.Models.CourseModel.Duration
+  type: Property
+  source:
+    id: Duration
+    path: C:\Users\Lab A 13\source\repos\Learn Now 2\LearnNow.Class\Models\CourseModel.cs
+    startLine: 14
+  assemblies:
+  - LearnNow.Class
+  namespace: LearnNow.Class.Models
+  syntax:
+    content: public int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Duration As Integer
+  overload: LearnNow.Class.Models.CourseModel.Duration*
+references:
+- uid: LearnNow.Class.Models
+  commentId: N:LearnNow.Class.Models
+  href: LearnNow.html
+  name: LearnNow.Class.Models
+  nameWithType: LearnNow.Class.Models
+  fullName: LearnNow.Class.Models
+  spec.csharp:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+  spec.vb:
+  - uid: LearnNow
+    name: LearnNow
+    href: LearnNow.html
+  - name: .
+  - uid: LearnNow.Class
+    name: Class
+    href: LearnNow.Class.html
+  - name: .
+  - uid: LearnNow.Class.Models
+    name: Models
+    href: LearnNow.Class.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: LearnNow.Class.Models.IEntity
+  commentId: T:LearnNow.Class.Models.IEntity
+  parent: LearnNow.Class.Models
+  href: LearnNow.Class.Models.IEntity.html
+  name: IEntity
+  nameWithType: IEntity
+  fullName: LearnNow.Class.Models.IEntity
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LearnNow.Class.Models.CourseModel.Id*
+  commentId: Overload:LearnNow.Class.Models.CourseModel.Id
+  href: LearnNow.Class.Models.CourseModel.html#LearnNow_Class_Models_CourseModel_Id
+  name: Id
+  nameWithType: CourseModel.Id
+  fullName: LearnNow.Class.Models.CourseModel.Id
+- uid: LearnNow.Class.Models.IEntity.Id
+  commentId: P:LearnNow.Class.Models.IEntity.Id
+  parent: LearnNow.Class.Models.IEntity
+  href: LearnNow.Class.Models.IEntity.html#LearnNow_Class_Models_IEntity_Id
+  name: Id
+  nameWithType: IEntity.Id
+  fullName: LearnNow.Class.Models.IEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LearnNow.Class.Models.CourseModel.Title*
+  commentId: Overload:LearnNow.Class.Models.CourseModel.Title
+  href: LearnNow.Class.Models.CourseModel.html#LearnNow_Class_Models_CourseModel_Title
+  name: Title
+  nameWithType: CourseModel.Title
+  fullName: LearnNow.Class.Models.CourseModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LearnNow.Class.Models.CourseModel.Description*
+  commentId: Overload:LearnNow.Class.Models.CourseModel.Description
+  href: LearnNow.Class.Models.CourseModel.html#LearnNow_Class_Models_CourseModel_Description
+  name: Description
+  nameWithType: CourseModel.Description
+  fullName: LearnNow.Class.Models.CourseModel.Description
+- uid: LearnNow.Class.Models.CourseModel.Price*
+  commentId: Overload:LearnNow.Class.Models.CourseModel.Price
+  href: LearnNow.Class.Models.CourseModel.html#LearnNow_Class_Models_CourseModel_Price
+  name: Price
+  nameWithType: CourseModel.Price
+  fullName: LearnNow.Class.Models.CourseModel.Price
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: LearnNow.Class.Models.CourseModel.Duration*
+  commentId: Overload:LearnNow.Class.Models.CourseModel.Duration
+  href: LearnNow.Class.Models.CourseModel.html#LearnNow_Class_Models_CourseModel_Duration
+  name: Duration
+  nameWithType: CourseModel.Duration
+  fullName: LearnNow.Class.Models.CourseModel.Duration

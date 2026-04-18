@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Admin Dashboard</h1>
+
+<div style="display:flex; justify-content:space-evenly; flex-wrap:wrap; gap=20px;">
+    <a style="width:200px;" h href="@Url.Action("Index", "Course")" class="btn btn-primary">Courses</a>
+    <a style="width:200px;" h href="@Url.Action("Index", "Location")" class="btn btn-primary">Location</a>
+    <a style="width:200px;" h href="@Url.Action("Index", "Teacher")" class="btn btn-primary">Teacher</a>
+    <a style="width:200px;" h href="@Url.Action("Index", "Trainee")" class="btn btn-primary">Trainee</a>
+    <a style="width:200px;" h href="@Url.Action("Index", "TrainingEvent")" class="btn btn-primary">Training Events</a>
+
+</div>
+
